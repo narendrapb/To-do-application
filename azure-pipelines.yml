@@ -15,4 +15,7 @@ jobs:
     runOnce:
       deploy:   
           steps:
-          - script: echo "Hello world"
+          - script: |
+              pwd
+              ls
+              ls -al
